@@ -1,0 +1,164 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Documentos oficiais do Tukii — Jogo da Velha.">
+  <meta name="theme-color" content="#ffb800">
+
+  <title>Documentos — Tukii</title>
+
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: #302b22;
+      background: #fff9ee;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    main {
+      width: 100%;
+      max-width: 520px;
+      padding: clamp(28px, 6vw, 48px);
+      background: #fff;
+      border-radius: 24px;
+      box-shadow: 0 10px 40px rgb(48 43 34 / 9%);
+      text-align: center;
+    }
+.logo {
+  margin-bottom: 16px;
+}
+
+.logo img {
+  width: 256px;
+  height: 256px;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 6vw, 2.7rem);
+      color: #282319;
+    }
+
+    .subtitle {
+      margin: 10px 0 32px;
+      color: #625c50;
+      font-size: 1.05rem;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 76px;
+      padding: 18px 22px;
+      border-radius: 16px;
+      background: #ffb800;
+      color: #302b22;
+      text-decoration: none;
+      font-size: 1.15rem;
+      font-weight: 750;
+      transition: background .2s, transform .2s;
+    }
+
+    .button:hover {
+      background: #f2aa00;
+      transform: translateY(-2px);
+    }
+
+    .button:focus-visible {
+      outline: 3px solid #765000;
+      outline-offset: 4px;
+    }
+
+    .button.secondary {
+      background: #fff3d1;
+      border: 2px solid #ffb800;
+    }
+
+    .button.secondary:hover {
+      background: #ffe9b0;
+    }
+
+    footer {
+      margin-top: 36px;
+      color: #827b6d;
+      font-size: .9rem;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 16px;
+      }
+
+      main {
+        padding: 30px 22px;
+      }
+
+      .button {
+        min-height: 72px;
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="logo">
+  <img src="logo.jpeg" alt="Logo Tukii">
+</div>
+
+    <h1>Tukii</h1>
+
+    <p class="subtitle">
+      Jogo da Velha<br>
+      Documentos e informações
+    </p>
+
+    <nav class="links" aria-label="Documentos oficiais">
+
+      <a
+        class="button"
+        href="termos_de_uso.html">
+        📄 Termos de Uso
+      </a>
+
+      <a
+        class="button secondary"
+        href="politica_de_privacidade.html">
+        🔒 Política de Privacidade
+      </a>
+
+    </nav>
+
+    <footer>
+      © 2026 Tukii — Todos os direitos reservados.
+    </footer>
+  </main>
+</body>
+</html>
